@@ -14,7 +14,10 @@ $(document).ready(function() {
     if (gender === "male" && age <= 100) {
       $("#beyonce").show()
     }
-  
+    else {
+      $("#bettywhite").show()
+    }
+
     event.preventDefault();
   });
 });
