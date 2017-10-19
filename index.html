@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/styles.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Which Celeb?</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>OMG CELEBS</h1>
+
+      <p>Fill out the form to see which celebrity you are destined to be with!</p>
+
+      <form id="celeb-form">
+        <div class="form-group">
+          <label for="name">Your name:</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="age">Your age:</label>
+          <input id="age" class="form-control" type="text">
+        </div>
+        <label for="gender">Yo gender?</label>
+        <select class="form-control" id="gender">
+          <option id="female">Female</option>
+          <option id="male">Male</option>
+          <option id="nope">ME NO SAY</option>
+        </select>
+        <div class="all-radio">
+          <label for="personality">would you sat you're more:</label>
+          <div class="radio">
+            <label>
+              <input id="serious" type="radio" name="personality" value="serious" checked>
+              Serious
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input id="goofy" type="radio" name="personality" value="goofy">
+              Goofy
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input id="laidback" type="radio" name="personality" value="laidback">
+              Laidback
+            </label>
+          </div>
+        </div>
+      </form>
+      <button class="btn btn-info" type="submit">Which Celeb?</button>
+
+      <div class="results">
+        <div id="mcjagger">
+          <h2>Congrats <span class="name"></span>!</h2>
+          <p>Your match is McJagger!</p>
+        </div>
+
+        <div id="beyonce">
+          <h2>Congrats <span class="name"></span>!</h2>
+          <p>Your match is Beyonce</p>
+        </div>
+
+        <div id="marilyn-manson">
+          <h2>Congrats <span class="name"></span>!</h2>
+          <p>Your match is Marilyn Manson</p>
+        </div>
+      </div>
+
+    </div> <!--end of container-->
+
+  </body>
+</html>

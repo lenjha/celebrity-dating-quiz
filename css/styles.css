@@ -1,0 +1,15 @@
+.all-radio {
+  margin-top:30px;
+}
+
+button {
+  margin-top: 30px;
+}
+
+.results {
+  margin-top: 40px;
+}
+
+#mcjagger, #beyonce, #marilyn-manson {
+  display: none;
+}
